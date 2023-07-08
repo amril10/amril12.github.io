@@ -1,0 +1,151 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+.btn-utama {
+    background-color: #7C9070;
+    color: white;
+}
+.btn-utama:hover {
+    background-color: #5f7055;
+    color: white;
+}
+
+.btn-second {
+    background-color: none;
+    border: 1px solid #7C9070;
+    color: #7C9070;
+}
+
+
+/* navbar */
+
+.navbar .cart {
+    max-width: 30px;
+}
+
+/* navbar end */
+
+
+/* Header */
+.banner {
+    height: fit-content;
+    min-height: 80vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 3%;
+}
+
+.banner .kotak {
+    background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 2%;
+}
+
+.topright {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+}
+/* End Header */
+
+/* section 1 */
+.about {
+    height: fit-content;
+    background-color: #9CA777;
+}
+/* end section 1 */
+
+/* section 2 */
+.produk {
+    height: fit-content;
+    min-height: 100vh;
+}
+
+.produk .img-produk  {
+    padding: 5px;
+}
+/* end section 1 */
+
+/* Section 3 */
+.diskon {
+    height: fit-content;
+    min-height: 70vh;
+    background-image: url('../img/latar2.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.diskon .row {
+    padding-top: 12%;
+}
+/* end section 3 */
+
+
+/* Footer */
+.footer {
+    height: fit-content;
+    min-height: 40vh;
+}
+/* end footer */
+
+/* Halaman Detail */
+.detail {
+    height: fit-content;
+    min-height: 100vh;
+    padding-top: 6%;
+}
+
+.detail .main-image {
+    width: 100%;
+}
+.detail .thumbnail {
+    width: 100%;
+    max-width: 209px;
+}
+
+.detail .buycart {
+    padding-left: 10%;
+}
+
+.recent {
+    height: fit-content;
+    min-height: 80vh;
+    background-color: #9CA777;
+}
+/* End halaman detail */
+
+/* Responsive */
+@media only screen and (max-width: 700px) {
+.topright {
+  position: absolute;
+  max-width: 200px;
+}
+
+.btn-utama {
+    width: 100%;
+}
+.btn-second {
+    width: 100%;
+}
+
+.detail {
+    padding-top: 19%;
+}
+.detail .thumbnail {
+    max-width: 119px;
+}
+.detail .buycart {
+    padding-left: 3%;
+}
+
+} 
+/* end responsive */
